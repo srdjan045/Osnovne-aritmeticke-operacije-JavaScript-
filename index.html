@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<script>
+		var x = prompt("Unesite prvi broj");
+		
+		var operation = prompt("Unesite željenu operaciju");
+		
+		switch(operation){
+			case "+":
+			var y = prompt("Unesite drugi broj");
+				var sum = parseInt(x) + parseInt(y);
+				break;
+				
+			case "-":
+			var y = prompt("Unesite drugi broj");
+				var sum = parseInt(x) - parseInt(y);
+				break;
+				
+			case "*":
+			var y = prompt("Unesite drugi broj");
+				var sum = parseInt(x) * parseInt(y);
+				break;
+				
+			case "/":
+			var y = prompt("Unesite drugi broj");
+				var sum = parseInt(x) / parseInt(y);
+				break;
+				
+			default:
+				alert ("Nepoznata operacija");
+		}
+		
+		alert (sum);
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	</script>
+</body>
+</html>
